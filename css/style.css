@@ -1,0 +1,163 @@
+
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor_1:#c1c2;
+}
+header{
+    background-color:  #1a1b33;
+
+    width: 100%;
+    
+}
+
+body{
+   
+text-align: justify;
+background: url(../img/backcat.webp);
+background-attachment: fixed;/*deixa o fundo fixo*/
+font-family: Arial, Helvetica, sans-serif;
+background-size: 100% 100%;
+background-repeat: initial;
+
+}
+div .video > iframe{
+    border-radius: 10px; 
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+   
+}
+div .video{
+    background-color: #8374F2;
+    margin:0 -10px;
+    border-radius: 0px;
+    padding: 20px;
+
+}
+main{
+    background-color: #373166;
+    padding: 10px;
+    margin: auto;
+    min-width:320px;
+    max-width: 800px;
+  
+    border-radius:0px 0px 5px 5px;
+}
+.titles {
+    color: whitesmoke;
+    text-align: center;
+    /* font-family:'Press Start 2P', cursive; */
+}
+
+/* config links modulos */
+.links-top{
+    color: springgreen;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.links-top:hover{
+    color: #00ff8085;
+}
+
+.links-top:active{
+font-size: 15px;
+}
+
+.links-top:visited{
+color: darkcyan;
+}
+
+
+/* fim config links modulos */
+.menu-header{
+    background-color:springgreen;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+   
+    width: max-content;
+    padding: 5px;
+    margin: auto 0px;
+    border-radius: 5px;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+.menu-header:hover{
+    background-color:#039b4f;
+color: #036836;
+
+}
+
+.botao-link{
+    background-color:springgreen;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+
+    width: max-content;
+    padding: 5px;
+    margin: -30px auto auto auto;
+    border-radius: 20px;
+    /* font-family:'Press Start 2P', cursive; */
+}
+
+.botao-link:hover{
+    background-color:#039b4f;
+color: #dadada;
+
+}
+
+/* config menu */
+#menu{
+    color: #ffffff;
+    font-weight: bold;
+    /* font-family:'Press Start 2P', cursive; */
+   
+        background: #1a1b33;
+        display: flex; 
+    padding: 10px;
+    transition-duration: 1s;
+ 
+}
+
+#menu>p{
+    display: none;
+    width: max-content;
+}
+#menu:hover{
+    color: rgb(23, 84, 109);
+}
+#menu:hover > p{
+   
+    filter: drop-shadow(1px 1px 2px black);
+    display:block;
+}
+/* fim config menu */
+@font-face{
+    /* tipos de format
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    -truetype-aat (apple advanced typography)
+    - svg
+    */
+    font-family: 'dirty';
+    src: url('../fonts/DIRTY DRAGS Free Trial.otf') format('opentype');
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    padding: 5px;
+   
+}
