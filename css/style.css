@@ -129,7 +129,14 @@ color: #dadada;
     transition-duration: 1s;
  
 }
-
+@media (max-width:492px) {
+    #menu{
+        flex-direction: column;
+    }
+    #menu>p{
+        line-height: 28px;
+    }
+}
 #menu>p{
     display: none;
     width: max-content;
