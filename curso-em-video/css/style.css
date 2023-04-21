@@ -98,7 +98,7 @@ color: #036836;
 }
 
 .botao-link{
-    background-color:springgreen;
+    background-color:#732580;
     text-align: center;
     color: #ffffff;
     font-weight: bold;
@@ -112,9 +112,9 @@ color: #036836;
 }
 
 .botao-link:hover{
-    background-color:#039b4f;
-color: #dadada;
-
+    background-color:#AD37BF;
+color: #2E0F33;
+transition-duration: 0.5s;
 }
 
 /* config menu */

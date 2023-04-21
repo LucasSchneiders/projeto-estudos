@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #1a1b33;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+nav{
+    background-color: #1a1b33;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.box-cursos{
+    display: flex; 
+    justify-content: center; 
+   
+}
+@media (max-width:1054px){
+.box-cursos{
+    flex-direction: column;
+}
+}
+.secao-1{
+    background-image:linear-gradient(45deg, #ec9d5b,#ec9d5b);
+    max-width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    filter: drop-shadow(1px 1px 2px #00000050);
+}
+
+.secao-2{
+    background-image:linear-gradient(45deg, #f8f833,#f8f84b);
+   
+    max-width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    filter: drop-shadow(1px 1px 2px #00000050);
+}
+
+.botao-curso{
+    background:#732580; 
+    width: max-content; 
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 5px; 
+    border-radius: 5px; 
+    text-align: center; 
+    margin: 5px auto; 
+    border:#732580 solid;
+}
+
+.botao-curso:hover{
+    background:#AD37BF; 
+    width: max-content; 
+    color: #2E0F33; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 5px; 
+    border-radius: 5px; 
+    text-align: center; 
+    margin: 5px auto; 
+    border:#AD37BF solid;
+    transition-duration: 0.5s;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
