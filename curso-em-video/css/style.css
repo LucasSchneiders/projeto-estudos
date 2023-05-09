@@ -118,16 +118,25 @@ transition-duration: 0.5s;
 }
 
 /* config menu */
-#menu{
+nav{
+    background: #1a1b33;
     color: #ffffff;
     font-weight: bold;
-    /* font-family:'Press Start 2P', cursive; */
-   
-        background: #1a1b33;
-        display: flex; 
+    display: flex;
     padding: 10px;
-    transition-duration: 1s;
- 
+}
+#home{
+    color:white; text-decoration:none;
+}
+
+#home:hover{
+    color:rgb(163, 163, 163);
+    transition:0.5s;
+}
+#menu{
+    /* font-family:'Press Start 2P', cursive; */
+    display: flex; 
+    padding-left: 10px;
 }
 @media (max-width:492px) {
     #menu{
@@ -143,6 +152,7 @@ transition-duration: 0.5s;
 }
 #menu:hover{
     color: rgb(23, 84, 109);
+    transition-duration: 1s;
 }
 #menu:hover > p{
    
