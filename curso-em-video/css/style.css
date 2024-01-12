@@ -9,9 +9,7 @@
 }
 header{
     background-color:  #1a1b33;
-
     width: 100%;
-    
 }
 
 body{
@@ -124,6 +122,7 @@ nav{
     font-weight: bold;
     display: flex;
     padding: 10px;
+    max-height: 20px;
 }
 #home{
     color:white; text-decoration:none;
@@ -137,6 +136,7 @@ nav{
     /* font-family:'Press Start 2P', cursive; */
     display: flex; 
     padding-left: 10px;
+
 }
 @media (max-width:492px) {
     #menu{
