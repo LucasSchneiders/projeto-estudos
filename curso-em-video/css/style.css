@@ -31,7 +31,7 @@ div .video > iframe{
    
 }
 div .video{
-    background-color: #8374f2;
+    background-color: #3a3276;
     margin:0 -10px;
     border-radius: 0px;
     padding: 20px;
@@ -53,15 +53,28 @@ main{
 }
 
 /* config links modulos */
+.box-toplink{
+    display: flex; 
+    flex-direction: row; 
+    gap: 10px; 
+    margin: 0 auto;
+}
 .links-top{
-    color: springgreen;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
+    border-radius: 20px;
+    background-color: #12003c;
+    padding: 5px;
    
 }
 
 .links-top:hover{
-    color: #00ff8085;
+    color: #2c073a;
+    background-color: #3c0477;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .links-top:active{
